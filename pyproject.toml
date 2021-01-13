@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tango_with_django_project"
+version = "0.1.0"
+description = ""
+authors = ["birb007 <25516647+birb007@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "2.2.17"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
