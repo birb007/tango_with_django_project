@@ -126,4 +126,7 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = [STATIC_DIR]
 STATIC_URL = '/static/'
 
+
+# Application Authentication
 LOGIN_URL = 'rango:login'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
